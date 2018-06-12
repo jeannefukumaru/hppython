@@ -1,4 +1,4 @@
-#High Performance Python with Parquet, Pyarrow and Dask 
+# High Performance Python with Parquet, Pyarrow and Dask 
 When datasets increase in size, Pandas users usually start encountering a few problems: 
 1. For datasets more than 1GB, file I/O and processing speed starts to slow down 
 2. For datasets more than 8GB/16GB, the dataset no longer fits into the memory of a single machine 
