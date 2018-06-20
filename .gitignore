@@ -1,7 +1,7 @@
 .DS_Store
 
 #data folder
-data/
+02_high-perf/dask_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
