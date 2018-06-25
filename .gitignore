@@ -2,6 +2,7 @@
 
 #data folder
 02_high-perf/dask_data/
+02_high-perf/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
