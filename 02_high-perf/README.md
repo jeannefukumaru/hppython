@@ -1,7 +1,7 @@
 # Dask Tutorial
 
-This tutorial draws inspiration from a tutorial given by Anaconda Inc. last given at SciPy 2017 in Austin Texas.
-[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA). We have added in ecommerce-related datasets and exercises. We have also added in a notebook exploring how `dask-ml` can be used on ecommerce data. 
+This workshop on `dask` is adapted from Anaconda Inc. tutorial last given at SciPy 2017 in Austin Texas.
+[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA). Credit for illustrating `dask` internals so clearly goes to the SciPy 2017 instructors. We have added in ecommerce-related datasets and exercises to show how `dask` can be applied to the ecommerce domain. We have also added in a notebook exploring how `dask-ml` can be used on ecommerce data. 
 
 ## Here is an overview of Dask from Anaconda Inc. :
 
@@ -21,11 +21,6 @@ We can think of dask at a high and a low level
    schedulers are an alternative to direct use of `threading` or
    `multiprocessing` libraries in complex cases or other task scheduling
    systems like `Luigi` or `IPython parallel`.
-
-Different users operate at different levels but it is useful to understand
-both.  This tutorial will interleave between high-level use of `dask.array` and
-`dask.dataframe` (even sections) and low-level use of dask graphs and
-schedulers (odd sections.)
 
 ## Prepare
 
@@ -94,32 +89,3 @@ From the repo directory
     *   [github issues](https://github.com/dask/dask/issues/new) for bug reports and feature requests
     *   [gitter chat](https://gitter.im/dask/dask) for general, non-bug, discussion
     *   Attend a live tutorial
-
-## Outline
-
-0. [Overview](00_overview.ipynb) - dask's place in the universe
-
-1. [Delayed](01_dask.delayed.ipynb) - the single-function way to parallelize general python code
-
-1x. [Lazy](01x_lazy.ipynb) - some of the principles behing laxy execution, for the interested.
-
-2. [Bag](02_bag.ipynb) - the first high-level collection: a generalized iterator for use
-with a functional programming style and to clean messy data.
- 
-3. [Array](03_array.ipynb) - blocked numpy-like functionality with a collection of 
-numpy arrays spread across your cluster.
-
-7. [Dataframe](04_dataframe.ipynb) - parallelized operations on many pandas dataframes
-spread across your cluster.
-
-5. [Distributed](05_distributed.ipynb) - Dask's scheduler for clusters, with details of
-how to view the UI.
-
-6. [Advanced Distributed](06_distributed_advanced.ipynb) - further details on distributed 
-computing, including how to debug.
-
-7. [Dataframe Storage](07_dataframe_storage.ipynb) - efficient ways to read and write
-dataframes to disc.
-
-
-8. [Machine Learning](08_machine_learning.ipynb) - aaplying dask to machine-learning problems
