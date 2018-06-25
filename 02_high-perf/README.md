@@ -1,7 +1,7 @@
 # Dask Tutorial
 
-This workshop on `dask` is adapted from Anaconda Inc. tutorial last given at SciPy 2017 in Austin Texas.
-[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA). Credit for illustrating `dask` internals so clearly goes to the SciPy 2017 instructors. We have added in ecommerce-related datasets and exercises to show how `dask` can be applied to the ecommerce domain. We have also added in a notebook exploring how `dask-ml` can be used on ecommerce data. 
+This workshop on `dask` is adapted from Anaconda Inc.'s dask tutorial last given at SciPy 2017 in Austin Texas.
+[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA). Full credit goes to the SciPy 2017 instructors for illustrating `dask` internals so clearly. We have added in ecommerce-related datasets and exercises to show how `dask` can be applied to the ecommerce domain. We have also added in a notebook exploring how `dask-ml` can be used on ecommerce data. 
 
 ## Here is an overview of Dask from Anaconda Inc. :
 
