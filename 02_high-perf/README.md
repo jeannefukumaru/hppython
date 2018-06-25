@@ -1,7 +1,9 @@
 # Dask Tutorial
 
-This tutorial was last given at SciPy 2017 in Austin Texas.
-[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA).
+This tutorial draws inspiration from a tutorial given by Anaconda Inc. last given at SciPy 2017 in Austin Texas.
+[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA). We have added in ecommerce-related datasets and exercises. We have also added in a notebook exploring how `dask-ml` can be used on ecommerce data. 
+
+## Here is an overview of Dask from Anaconda Inc. :
 
 Dask provides multi-core execution on larger-than-memory datasets.
 
@@ -49,6 +51,8 @@ You will need the following core libraries
 You may find the following libraries helpful for some exercises
 
     pip install graphviz
+    pip install dask-ml
+    pip install dask-ml[xgboost]
     
 #### c) Use Dockerfile
 

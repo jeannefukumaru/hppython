@@ -1,2 +1,2 @@
 # hppython
-high performance data science  in python
+high performance data science in python
